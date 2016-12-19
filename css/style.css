@@ -9,12 +9,13 @@ html,body{
 	height:100%;
   min-height: 100%;
   overflow: hidden;
+  text-decoration: none;
 }
+
 canvas{
   display:block;
   vertical-align:bottom;
 }
-
 
 /* ---- stats.js ---- */
 
@@ -92,8 +93,9 @@ img {
   font-weight: 300 !important;
 }
 
-h3, .tagline {
+h4, .tagline {
   line-height: 200% !important;
+  font-size: 1.8rem !important;
 }
 
 .decorative-line {
@@ -113,6 +115,14 @@ h3, .tagline {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f0f0f', endColorstr='#0f0f0f',GradientType=0 ); /* IE6-9 */
 }
 
+.white {
+  color: #fff !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
 #navbar {
   height: 8%;
   background: #0f0f0f;
@@ -120,7 +130,10 @@ h3, .tagline {
 
 @media screen and (max-width: 35rem) {
     .text {
-      font-size: 5rem;
+      font-size: 4rem;
       color: #fff;
+    }
+    h4, .tagline {
+      font-size: 1.4rem !important;
     }
 }
