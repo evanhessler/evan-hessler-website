@@ -61,14 +61,13 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-  'I bridge the gap between software and design',
-  'Software Engineer, Front-End Developer, and Graphic Designer'
+  'I’m a Software Engineer, Web Developer, and Graphic Designer. I like making things look good and work better.'
 ]
 
-const el = document.querySelector('.text')
-const el2 = document.querySelector('.tagline')
+const el = document.querySelector('.tagline')
 const fx = new TextScramble(el)
-const fx2 = new TextScramble(el2)
 
 fx.setText(phrases[0]);
-setTimeout(function(){fx2.setText(phrases[1]);}, 1350);
+
+
+
