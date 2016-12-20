@@ -180,3 +180,7 @@ a {
 .icon:hover {
   fill: #fff;
 }
+
+.float-right {
+  margin-left: 100
+}
