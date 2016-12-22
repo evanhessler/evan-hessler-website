@@ -13,3 +13,11 @@ $(window).resize(function() {
     	$('#logo').attr('src', 'images/logo.svg');
     }
 }).resize()
+
+
+$(".projects-url").click(function(){
+    document.querySelector('#projects').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+
+});
