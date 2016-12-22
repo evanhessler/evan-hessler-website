@@ -166,9 +166,8 @@ a {
 }
 
 @media screen and (max-width: 35rem) {
-    .text {
-      font-size: 4rem;
-      color: #fff;
+    h1 {
+      font-size: 5rem !important;
     }
     h4, .tagline {
       font-size: 1.4rem !important;
