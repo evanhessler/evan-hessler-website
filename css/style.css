@@ -210,6 +210,13 @@ a {
   margin-right: 30px;
 }
 
+#navbar {
+  position: fixed;
+  width: 100%;
+  min-width: 100%;
+  z-index: 2;
+}
+
 .container {
   height: 100%;
   min-height: 100%;
