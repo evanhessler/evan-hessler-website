@@ -21,3 +21,11 @@ $(".projects-url").click(function(){
     });
 
 });
+
+$(function(){
+    $("#intro").typed({
+        strings: ["Hi, I'm Evan."],
+        typeSpeed: 15,
+        showCursor: false
+    });
+});

@@ -14,7 +14,7 @@ particlesJS.load('particles-js', 'particles.json', function() {
 function getRandomColor() {
     var color = ["#ffffff", "#ff0000", "#d900ff", "#00e1ff", "#00ff00", "#ffc200", "#ff7300"];
     randColor = color[Math.floor(Math.random() * color.length)];
-    document.getElementsByClassName('tagline')[0].style.color = randColor;
+    document.getElementById('tagline').style.color = randColor;
     return randColor;
 }
 

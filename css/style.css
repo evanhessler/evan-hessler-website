@@ -209,6 +209,10 @@ a {
   margin-right: 30px;
 }
 
+#navbar .col-xs-6 ul {
+  margin-top: 11px;
+}
+
 #navbar {
   position: fixed;
   width: 100%;
@@ -219,4 +223,21 @@ a {
 .container {
   height: 100%;
   min-height: 100%;
+}
+
+#intro-container {
+  min-height: 85px;
+}
+
+
+@media screen and (max-width: 767px) {
+    #intro-container {
+      min-height: 170px;
+    }
+}
+
+@media screen and (max-width: 407px) {
+    #intro-container {
+      min-height: 180px;
+    }
 }

@@ -61,13 +61,14 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
+  'Hi, I\'m Evan',
   'I’m a Software Engineer, Web Developer, and Graphic Designer. I like making things look good and work better.'
 ]
 
-const el = document.querySelector('.tagline')
+const el = document.querySelector('#intro')
 const fx = new TextScramble(el)
 
-fx.setText(phrases[0]);
+//fx.setText(phrases[0]);
 
 
 
