@@ -11,7 +11,8 @@
 
 </head>
 <body>
-  <div class="container fullscreen">
+
+  <div class="fullscreen front">
 
     <div class="row vertical-center" id="navbar">
       <div class="col-xs-6">
@@ -60,36 +61,44 @@
         </nav>
       </div>
     </div>
-    <div class="row vertical-center" style="height: 70%">
-      <div class="col-xs-3"></div>
-      <div class="col-xs-6 text-center">
-        <h1>Hi, I'm Evan.</h1>
-        <div class="decorative-line"></div>
-        <div class="tagline"></div>
-      </div>
-      <div class="col-xs-3"></div>
-    </div>
 
-    <div class="row vertical-center" style="height: 20%">
-      <div class="col-xs-12 text-center">
-        <a href="/projects" class="projects-url">
-          <h4 class="white">Projects</h4>
-          <img src="images/arrow.svg">
-        </a>
+    <div class="container">
+      <div class="row vertical-center" style="height: 70%">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6 text-center">
+          <h1>Hi, I'm Evan.</h1>
+          <div class="decorative-line"></div>
+          <div class="tagline"></div>
+        </div>
+        <div class="col-xs-3"></div>
+      </div>
+
+      <div class="row vertical-center" style="height: 20%">
+        <div class="col-xs-12 text-center">
+          <a href="/projects" class="projects-url">
+            <h4 class="white">Projects</h4>
+            <img src="images/arrow.svg">
+          </a>
+        </div>
       </div>
     </div>
 
   </div>
 
-  <div id="particles-js"></div>
+  <div class="fullscreen back">
+    <div id="particles-js"></div>
+  </div>
+
+  <div class="fullscreen">
+  </div>
 
 
 <!-- scripts -->
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
 <script src="js/particles.js"></script>
 <script src="js/app.js"></script>
-<script src="js/text-scramble.js"></script>
 <script src="js/script.js"></script>
+<script src="js/text-scramble.js"></script>
 
 </body>
 </html>
