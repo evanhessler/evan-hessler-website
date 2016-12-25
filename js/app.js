@@ -92,7 +92,7 @@ particlesJS('particles-js',
       "detect_on": "canvas",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "bubble"
         },
         "onclick": {
@@ -129,7 +129,7 @@ particlesJS('particles-js',
     "retina_detect": true,
     "config_demo": {
       "hide_card": false,
-      "background_color": "#1a1a1c",
+      "background_color": "#0f0f0f",
       "background_image": "",
       "background_position": "50% 50%",
       "background_repeat": "no-repeat",
