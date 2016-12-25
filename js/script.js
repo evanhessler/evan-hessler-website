@@ -1,15 +1,12 @@
 $(document).ready(function() {
-    if (document.documentElement.clientWidth <= 1000) {    
-        $('#logo').attr('src', 'images/logo-short.svg');
-    } else{
-    	$('#logo').attr('src', 'images/logo.svg');
-    }
 
-    $("#intro").typed({
-        strings: ["Hi, I'm Evan."],
-        typeSpeed: 15,
-        showCursor: false
-    });
+    setTimeout(function(){
+        $("#intro").typed({
+            strings: ["Hi, I'm Evan."],
+            typeSpeed: 15,
+            showCursor: false
+        });
+    }, 100);
 
     $(".fadein").css({opacity:0})
 
@@ -28,9 +25,5 @@ $(document).ready(function() {
 });
 
 $(window).resize(function() {
-    if (document.documentElement.clientWidth <= 1000) {    
-        $('#logo').attr('src', 'images/logo-short.svg');
-    } else{
-    	$('#logo').attr('src', 'images/logo.svg');
-    }
+    if (document.documentElement.clientWidth <= 650) {};
 }).resize()

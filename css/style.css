@@ -160,11 +160,6 @@ a {
   text-decoration: none !important;
 }
 
-#navbar {
-  height: 10%;
-  background: #0f0f0f;
-}
-
 .icon {
   height: 50px;
   fill: #b2b2b2;
@@ -195,21 +190,24 @@ a {
 }
 
 
-#navbar .col-xs-6 {
+.navbar .col-xs-6 {
   margin-left: 30px;
   margin-right: 30px;
 }
 
-#navbar .col-xs-6 ul {
+.navbar .col-xs-6 ul {
   margin-top: 11px;
 }
 
-#navbar {
+.navbar {
   position: fixed;
   width: 100%;
   min-width: 100%;
   z-index: 2;
   height: 5rem;
+  height: 8%;
+  background: #0f0f0f;
+  display: flex;
 }
 
 .container {
@@ -246,5 +244,29 @@ a {
     }
     h4, .tagline {
       font-size: 1.8rem !important;
+    }
+}
+
+
+#navbar-mobile-screens {
+    display: none !important;
+}
+
+
+@media screen and (max-width: 700px) {
+    #navbar-large-screens {
+      display: none !important;
+    }
+    #navbar-mobile-screens {
+      display: flex !important;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #navbar-large-screens {
+      display: flex !important;
+    }
+    #navbar-mobile-screens {
+      display: none !important;
     }
 }
