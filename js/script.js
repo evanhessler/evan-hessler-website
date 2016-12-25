@@ -28,4 +28,11 @@ $(function(){
         typeSpeed: 15,
         showCursor: false
     });
+
+    $(".fadein").css({opacity:0})
+
+
+    setTimeout(function(){
+        $(".fadein").hide().css({opacity:100}).fadeIn(1000);
+    }, 1230);
 });
