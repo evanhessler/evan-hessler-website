@@ -204,7 +204,7 @@ a {
   width: 100%;
   min-width: 100%;
   z-index: 2;
-  height: 5rem;
+  height: 5rem !important;
   height: 8%;
   background: #0f0f0f;
   display: flex;
@@ -220,53 +220,6 @@ a {
 }
 
 
-@media screen and (max-width: 767px) {
-    #intro-container {
-      min-height: 170px;
-    }
-}
-
-@media screen and (max-width: 560px) {
-    #intro-container {
-      min-height: 120px;
-    }
-}
-
-@media screen and (max-width: 407px) {
-    #intro-container {
-      min-height: 180px;
-    }
-}
-
-@media screen and (max-width: 35rem) {
-    h1 {
-      font-size: 5rem !important;
-    }
-    h4, .tagline {
-      font-size: 1.8rem !important;
-    }
-}
-
-
 #navbar-mobile-screens {
     display: none !important;
-}
-
-
-@media screen and (max-width: 700px) {
-    #navbar-large-screens {
-      display: none !important;
-    }
-    #navbar-mobile-screens {
-      display: flex !important;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    #navbar-large-screens {
-      display: flex !important;
-    }
-    #navbar-mobile-screens {
-      display: none !important;
-    }
 }
