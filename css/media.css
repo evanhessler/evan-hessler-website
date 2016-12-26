@@ -37,6 +37,6 @@
     font-size: 1.6rem !important;
   }
   #logo {
-    width: 31%;
+    max-width: 31%;
   }
 }
