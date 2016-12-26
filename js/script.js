@@ -8,8 +8,7 @@ $(document).ready(function() {
         });
     }, 100);
 
-    $(".fadein").css({opacity:0})
-
+    $(".fadein").css({opacity:0});
 
     setTimeout(function(){
         $(".fadein").hide().css({opacity:100}).fadeIn(1000);
@@ -22,8 +21,8 @@ $(document).ready(function() {
         });
     });
 
-});
+    $("#pulldown-icon").click(function(){
+        console.log('here');
+    });
 
-$(window).resize(function() {
-    if (document.documentElement.clientWidth <= 650) {};
-}).resize()
+});
