@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    $(".fadein").css({opacity:0});
+    $("#pulldown").hide();
+    $("#pulldown").data('status', 'not_clicked');
+
     setTimeout(function(){
         $("#intro").typed({
             strings: ["Hi, I'm Evan."],
@@ -7,8 +11,6 @@ $(document).ready(function() {
             showCursor: false
         });
     }, 100);
-
-    $(".fadein").css({opacity:0});
 
     setTimeout(function(){
         $(".fadein").hide().css({opacity:100}).fadeIn(1000);
@@ -21,8 +23,17 @@ $(document).ready(function() {
         });
     });
 
+
     $("#pulldown-icon").click(function(){
-        console.log('here');
+        if( $("#pulldown").data('status') == 'clicked' ) {
+            console.log('here2');
+            $("#pulldown").data('status','not_clicked');
+            $('#pulldown').slideUp(200);
+        } else {
+            $("#pulldown").data('status','clicked');
+            $('#pulldown').slideDown(200);
+            console.log($("#pulldown").data('status') == 'clicked');
+        }
     });
 
 });
