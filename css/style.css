@@ -219,6 +219,12 @@ a {
   min-height: 85px;
 }
 
+.page-text {
+  background: rgba(15, 15, 15, 0.75);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 
 #navbar-mobile-screens {
   display: none !important;
@@ -232,6 +238,7 @@ a {
 #pulldown {
   position: absolute;
   z-index: 1;
+  display: none;
 }
 
 #pulldown ul {
