@@ -17,13 +17,18 @@ function getRandomColor() {
 
     var tempColor = (randColor == "#ffffff") ? "#0f0f0f" : randColor;
 
-    var accCcolor = document.getElementsByClassName('accent-color');
-    for (var x = 0; x < accCcolor.length; x++) {
-      accCcolor[x].style.color = tempColor;
+    var accColor = document.getElementsByClassName('accent-color');
+    for (var x = 0; x < accColor.length; x++) {
+      accColor[x].style.color = tempColor;
     }
-    var accCcolorBack = document.getElementsByClassName('accent-color-background');
-    for (var x = 0; x < accCcolorBack.length; x++) {
-      accCcolorBack[x].style.background = tempColor;
+    var accColorBack = document.getElementsByClassName('accent-color-background');
+    for (var x = 0; x < accColorBack.length; x++) {
+      accColorBack[x].style.background = tempColor;
+    }
+
+    var accColorStroke = document.getElementsByClassName('accent-color-stroke');
+    for (var x = 0; x < accColorStroke.length; x++) {
+      accColorStroke[x].style.borderColor = tempColor;
     }
 
     if (randColor == "#ffffff") {
