@@ -134,12 +134,7 @@ h3, h4, p, li, span {
 
 p, li, span {
   font-weight: 300 !important;
-  font-size: 1.5rem !important;
-  line-height: 200% !important;
-}
-
-li {
-  font-weight: 300 !important;
+  line-height: 240%;
   font-size: 1.3rem !important;
 }
 
@@ -384,7 +379,7 @@ a {
   min-height: 210px;
   height: 100%;
   border-radius: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 #resume {
@@ -394,4 +389,8 @@ a {
 .low-margin {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.img-round {
+  border-radius: 50%;
 }

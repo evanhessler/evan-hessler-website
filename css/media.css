@@ -20,6 +20,12 @@
     }
 }
 
+@media screen and (max-width: 60rem) {
+    .col-md-6 {
+      text-align: center;
+    }
+}
+
 @media screen and (min-width: 50rem) {
     #navbar-large-screens {
       display: flex !important;
@@ -38,6 +44,10 @@
   }
   #logo {
     max-width: 31%;
+  }
+
+  #profile-pic {
+    width: 175px;
   }
 
   .resume-box {
