@@ -344,6 +344,7 @@ a {
   border: none !important;
   border-radius: 15px;
   color: white;
+
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -364,10 +365,12 @@ a {
   -webkit-transition:.3s;
   /* ...and now for the proper property */
   transition:.3s;
+  fill: #939393;
 }
 
 #resume span:hover {
   color: #0f0f0f;
+  fill: #0f0f0f;
 }
 
 .resume-box {
@@ -393,4 +396,11 @@ a {
 
 .img-round {
   border-radius: 50%;
+}
+
+.resume-arrow {
+  width: 7px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  fill: #939393;
 }
