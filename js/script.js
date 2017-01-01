@@ -28,12 +28,4 @@ $(document).ready(function() {
         }
     });
 
-    $(document).on('click', 'a', function(event){
-        event.preventDefault();
-        console.log('here');
-        $('html, body').animate({
-            scrollTop: $( $.attr(this, 'href') ).offset().top
-        }, 300);
-    });
-
 });

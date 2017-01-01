@@ -14,7 +14,22 @@ particlesJS.load('particles-js', 'particles.json', function() {
 function getRandomColor() {
     var color = ["#ffffff", "#ff0000", "#d900ff", "#00e1ff", "#00ff00", "#ffc200", "#ff7300"];
     randColor = color[Math.floor(Math.random() * color.length)];
-    document.getElementById('tagline').style.color = randColor;
+
+    var tempColor = (randColor == "#ffffff") ? "#0f0f0f" : randColor;
+
+    var accCcolor = document.getElementsByClassName('accent-color');
+    for (var x = 0; x < accCcolor.length; x++) {
+      accCcolor[x].style.color = tempColor;
+    }
+    var accCcolorBack = document.getElementsByClassName('accent-color-background');
+    for (var x = 0; x < accCcolorBack.length; x++) {
+      accCcolorBack[x].style.background = tempColor;
+    }
+
+    if (randColor == "#ffffff") {
+      document.getElementsByClassName('accent-color')[0].style.color = "#ffffff";
+    }
+
     return randColor;
 }
 

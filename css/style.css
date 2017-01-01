@@ -135,6 +135,17 @@ h3, h4, p, li {
   font-family: 'Roboto Mono', monospace, sans-serif !important;
 }
 
+p, li {
+  font-weight: 300 !important;
+  font-size: 1.5rem !important;
+  line-height: 200% !important;
+}
+
+li {
+  font-weight: 300 !important;
+  font-size: 1.3rem !important;
+}
+
 h2 {
   font-weight: 300 !important;
   line-height: 200% !important;
@@ -148,9 +159,9 @@ h3 {
 }
 
 h4 {
-  font-weight: 700 !important;
-  line-height: 200% !important;
-  font-size: 1.7rem !important;
+  font-weight: 500 !important;
+  font-size: 1.5rem !important;
+  line-height: 300% !important;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -160,6 +171,7 @@ h4 {
   margin-top: 20px;
   margin-bottom: 20px;
   max-width: 40px;
+  min-width: 20px;
   width: 10%;
   height: 2px;
 }
@@ -187,12 +199,20 @@ li:hover, a:hover { color:#fff; }
   background: #fff;
 }
 
-.gray {
+.light-gray {
   color: #b2b2b2;
 }
 
-.gray-background {
+.light-gray-background {
   background: #b2b2b2;
+}
+
+.medium-gray {
+  color: #939393;
+}
+
+.medium-gray-background {
+  background: #939393;
 }
 
 .black {
@@ -321,4 +341,16 @@ a {
 .panel {
   height: 100%;
   width: 100%;
+}
+
+.button {
+  border: none !important;
+  border-radius: 15px;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
