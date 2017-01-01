@@ -39,4 +39,8 @@
   #logo {
     max-width: 31%;
   }
+
+  .resume-box {
+    min-height: 240px !important;
+  }
 }

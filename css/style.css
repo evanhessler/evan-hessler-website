@@ -83,14 +83,12 @@ canvas{
 .fullscreen {
   width: 100%;
   min-width: 100%;
-  height: 100%;
   min-height: 100%;
 }
 
 .one-fourth {
   width: 100%;
   min-width: 100%;
-  height: 25%;
   min-height: 25%;
 }
 
@@ -160,9 +158,9 @@ h3 {
 h4 {
   font-weight: 500 !important;
   font-size: 1.5rem !important;
-  line-height: 300% !important;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
+  margin-top: 25px !important;
 }
 
 .decorative-line {
@@ -364,7 +362,7 @@ a {
   margin-bottom: 40px;
 }
 
-#resume p {
+#resume span {
   -o-transition:.3s;
   -ms-transition:.3s;
   -moz-transition:.3s;
@@ -373,7 +371,7 @@ a {
   transition:.3s;
 }
 
-#resume p:hover {
+#resume span:hover {
   color: #0f0f0f;
 }
 
@@ -383,8 +381,14 @@ a {
 
 .resume-box {
   border: 2px solid #efefef;
-  min-height: 250px;
+  min-height: 210px;
+  height: 100%;
   border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+#resume {
+  height: 100%;
 }
 
 .low-margin {
