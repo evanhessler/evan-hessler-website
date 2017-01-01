@@ -16,14 +16,6 @@ $(document).ready(function() {
         $(".fadein").hide().css({opacity:100}).fadeIn(1000);
     }, 1230);
 
-
-    $(".projects-url").click(function(){
-        document.querySelector('#projects').scrollIntoView({ 
-          behavior: 'smooth' 
-        });
-    });
-
-
     $("#pulldown-icon").click(function(){
         if( $("#pulldown").data('status') == 'clicked' ) {
             console.log('here2');
@@ -34,6 +26,14 @@ $(document).ready(function() {
             $('#pulldown').slideDown(200);
             console.log($("#pulldown").data('status') == 'clicked');
         }
+    });
+
+    $(document).on('click', 'a', function(event){
+        event.preventDefault();
+        console.log('here');
+        $('html, body').animate({
+            scrollTop: $( $.attr(this, 'href') ).offset().top
+        }, 300);
     });
 
 });
