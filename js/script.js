@@ -27,7 +27,7 @@ $(document).ready(function() {
         }
     });
 
-    $('#resume').waypoint(function() {
+    $('#aktary').waypoint(function() {
         new TextScramble(document.querySelector('#aktary')).setText('AktaryTech');
         new TextScramble(document.querySelector('#nfl')).setText('National Football League');
         new TextScramble(document.querySelector('#hesslex')).setText('Hesslex Design Agency');
@@ -37,6 +37,6 @@ $(document).ready(function() {
         new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
         new TextScramble(document.querySelector('#webDev')).setText('Web Development');
         new TextScramble(document.querySelector('#design')).setText('Design');
-    }, {offset:'100%'});
+    });
 
 });
