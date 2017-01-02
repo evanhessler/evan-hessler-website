@@ -37,6 +37,6 @@ $(document).ready(function() {
         new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
         new TextScramble(document.querySelector('#webDev')).setText('Web Development');
         new TextScramble(document.querySelector('#design')).setText('Design');
-    });
+    }, {offset:'100%'});
 
 });
