@@ -21,8 +21,13 @@
 }
 
 @media screen and (max-width: 60rem) {
-    .col-md-6 {
-      text-align: center;
+    .col-md-8 {
+      text-align: center !important;
+    }
+
+    .col-md-4 {
+      margin-bottom: 0 !important;
+      margin-top: 30px !important;
     }
 }
 

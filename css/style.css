@@ -90,6 +90,7 @@ canvas{
   width: 100%;
   min-width: 100%;
   min-height: 25%;
+  margin-bottom: 20px;
 }
 
 .one-half {
@@ -194,14 +195,15 @@ li:hover, a:hover { color:#fff; }
 
 .white-background {
   background: #fff;
+  color: #0f0f0f !important;
 }
 
 .light-gray {
-  color: #efefef;
+  color: #f4f4f4;
 }
 
 .light-gray-background {
-  background: #efefef;
+  background: #f4f4f4;
 }
 
 .medium-gray {
@@ -370,10 +372,6 @@ a {
   margin-bottom: 30px;
 }
 
-#resume {
-  height: 100%;
-}
-
 .low-margin {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -388,4 +386,21 @@ a {
   margin-bottom: 2px;
   margin-left: 5px;
   fill: #939393;
+}
+
+.project-background {
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  z-index: -1;
+}
+
+#auxhub {
+  background: url('/images/projects/auxhub-cover.png') center;
+}
+
+.project {
+  position: absolute;
+  z-index: 0;
+  background: rgba(0, 0, 0, 0.5);
 }

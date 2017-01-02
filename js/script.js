@@ -27,16 +27,20 @@ $(document).ready(function() {
         }
     });
 
+    var textScramble = true;
     $('#aktary').waypoint(function() {
-        new TextScramble(document.querySelector('#aktary')).setText('AktaryTech');
-        new TextScramble(document.querySelector('#nfl')).setText('National Football League');
-        new TextScramble(document.querySelector('#hesslex')).setText('Hesslex Design Agency');
-        new TextScramble(document.querySelector('#freelance')).setText('Freelance');
-        new TextScramble(document.querySelector('#lmu')).setText('Loyola Marymount University');
-        new TextScramble(document.querySelector('#webDevBoot')).setText('Web Development Bootcamp');
-        new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
-        new TextScramble(document.querySelector('#webDev')).setText('Web Development');
-        new TextScramble(document.querySelector('#design')).setText('Design');
+        if (textScramble) {
+            new TextScramble(document.querySelector('#aktary')).setText('AktaryTech');
+            new TextScramble(document.querySelector('#nfl')).setText('National Football League');
+            new TextScramble(document.querySelector('#hesslex')).setText('Hesslex Design Agency');
+            new TextScramble(document.querySelector('#freelance')).setText('Freelance');
+            new TextScramble(document.querySelector('#lmu')).setText('Loyola Marymount University');
+            new TextScramble(document.querySelector('#webDevBoot')).setText('Web Development Bootcamp');
+            new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
+            new TextScramble(document.querySelector('#webDev')).setText('Web Development');
+            new TextScramble(document.querySelector('#design')).setText('Design');
+            textScramble = false;
+        }
     }, {offset:'100%'});
 
 });
