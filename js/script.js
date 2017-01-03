@@ -16,9 +16,10 @@ $(document).ready(function() {
         $(".fadein").hide().css({opacity:100}).fadeIn(1000);
     }, 1230);
 
+    $(".fade-on-scroll").hide();
+
     $("#pulldown-icon").click(function(){
         if( $("#pulldown").data('status') == 'clicked' ) {
-            console.log('here2');
             $("#pulldown").data('status','not_clicked');
             $('#pulldown').slideUp(200);
         } else {
@@ -28,6 +29,7 @@ $(document).ready(function() {
     });
 
     var textScramble = true;
+
     $('#aktary').waypoint(function() {
         if (textScramble) {
             new TextScramble(document.querySelector('#aktary')).setText('AktaryTech');
@@ -40,6 +42,16 @@ $(document).ready(function() {
             new TextScramble(document.querySelector('#webDev')).setText('Web Development');
             new TextScramble(document.querySelector('#design')).setText('Design');
             textScramble = false;
+        }
+    }, {offset:'100%'});
+
+    var fadeOnScroll = true;
+
+    $('#projects').waypoint(function() {
+        if (fadeOnScroll) {
+            console.log('here');
+            $(".fade-on-scroll").hide().css({opacity:100}).fadeIn(1000);
+            fadeOnScroll = false;
         }
     }, {offset:'100%'});
 
