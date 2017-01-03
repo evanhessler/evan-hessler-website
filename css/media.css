@@ -15,7 +15,10 @@
     h1 {
       font-size: 5rem !important;
     }
-    h4, .tagline {
+    h3 {
+      font-size: 3.5rem !important;
+    }
+    h5, .tagline {
       font-size: 1.8rem !important;
     }
 }
@@ -44,7 +47,10 @@
   h1 {
     font-size: 4rem !important;
   }
-  h4, .tagline {
+  h3 {
+    font-size: 2rem !important;
+  }
+  h5, .tagline {
     font-size: 1.6rem !important;
   }
   #logo {

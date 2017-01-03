@@ -117,7 +117,7 @@ img {
 }
 
 
-.text, h1, h2 {
+.text, h1, h2, h3 {
   font-family: 'Merriweather', serif !important;
 }
 
@@ -129,7 +129,7 @@ img {
 }
 
 
-h3, h4, p, li, span {
+h4, h5, p, li, span {
   font-family: 'Roboto Mono', monospace, sans-serif !important;
 }
 
@@ -142,16 +142,22 @@ p, li, span {
 h2 {
   font-weight: 300 !important;
   line-height: 200% !important;
-  font-size: 2.5rem !important;
+  font-size: 4rem !important;
 }
 
 h3 {
   font-weight: 300 !important;
   line-height: 200% !important;
-  font-size: 1.9rem !important;
+  font-size: 3rem !important;
 }
 
 h4 {
+  font-weight: 300 !important;
+  line-height: 200% !important;
+  font-size: 1.9rem !important;
+}
+
+h5 {
   font-weight: 500 !important;
   font-size: 1.5rem !important;
   letter-spacing: 0.3rem;
@@ -347,7 +353,7 @@ a {
   border-radius: 15px;
   color: white;
 
-  padding: 10px 25px;
+  padding: 5px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -402,5 +408,9 @@ a {
 .project {
   position: absolute;
   z-index: 0;
-  background: rgba(0, 0, 0, 0.5);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0f0f+0,0f0f0f+100&0.8+0,0.6+3,0.6+97,0.8+100 */
+  background: -moz-linear-gradient(top,  rgba(15,15,15,0.8) 0%, rgba(15,15,15,0.6) 3%, rgba(15,15,15,0.6) 97%, rgba(15,15,15,0.8) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(15,15,15,0.8) 0%,rgba(15,15,15,0.6) 3%,rgba(15,15,15,0.6) 97%,rgba(15,15,15,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(15,15,15,0.8) 0%,rgba(15,15,15,0.6) 3%,rgba(15,15,15,0.6) 97%,rgba(15,15,15,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0f0f0f', endColorstr='#cc0f0f0f',GradientType=0 ); /* IE6-9 */
 }
