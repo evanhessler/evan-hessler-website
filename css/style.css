@@ -86,6 +86,13 @@ canvas{
   min-height: 100%;
 }
 
+.one-third {
+  width: 100%;
+  min-width: 100%;
+  min-height: 33%;
+  margin-bottom: 20px;
+}
+
 .one-fourth {
   width: 100%;
   min-width: 100%;
@@ -428,4 +435,10 @@ a {
 
 .project-button:hover {
   background: #eaeaea !important;
+}
+
+#footer {
+  min-width: 100%;
+  height: 10%;
+  background: #0f0f0f;
 }

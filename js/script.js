@@ -17,6 +17,7 @@ $(document).ready(function() {
     }, 1230);
 
     $(".fade-on-scroll").hide();
+    $("#contact-info").hide();
 
     $("#pulldown-icon").click(function(){
         if( $("#pulldown").data('status') == 'clicked' ) {
@@ -47,12 +48,24 @@ $(document).ready(function() {
 
     var fadeOnScroll = true;
 
-    $('#projects').waypoint(function() {
+    $('.projects').waypoint(function() {
         if (fadeOnScroll) {
-            console.log('here');
-            $(".fade-on-scroll").hide().css({opacity:100}).fadeIn(1000);
+            $(".fade-on-scroll").fadeIn(1000);
             fadeOnScroll = false;
         }
     }, {offset:'100%'});
 
+    $("#contact-check button").click(function() {
+        if ($("#contact-check input").val() == 12) {
+            $("#contact-check").fadeOut(500);
+            setTimeout(function(){
+                $("#contact-info").fadeIn(500);
+            }, 500);
+        } else {
+            $("#contact-check p").text("That is incorrect. What is seven plus five?");
+        }
+    });
+
+
+    $("#footer p").text("© Evan Hessler "  + new Date().getFullYear().toString());
 });
