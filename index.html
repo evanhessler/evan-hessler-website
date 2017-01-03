@@ -13,9 +13,7 @@
 
 </head>
 <body>
-
-  <div class="nine-tenths front" id="frontpage">
-
+  <div class="nine-tenths front">
     <div class="vertical-center navbar" style="display: flex;" id="navbar-large-screens">
       <div class="col-xs-6">
         <a href="">
@@ -27,10 +25,10 @@
         <nav>
           <ul class="light-gray vertical-center pull-right">
             <a href="https://www.github.com/evanhessler">
-              <a href="#frontpage"><li class="active">Home</li></a>
-              <a href="#about"><li>About</li></a>
-              <a href="#projects"><li>Projects</li></a>
-              <a href="#contact"><li>Contact</li></a>
+              <a href="#frontpage"><li class="frontpage-nav">Home</li></a>
+              <a href="#about"><li class="about-nav">About</li></a>
+              <a href="#projects"><li class="projects-nav">Projects</li></a>
+              <a href="#contact"><li class="contact-nav">Contact</li></a>
               <a class="external-link" href="https://www.github.com/evanhessler">
                 <li style="margin-top: 10px;">
                   <svg class="icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -89,10 +87,10 @@
         <div class="col-xs-12 pull-right" id="pulldown">
           <nav>
             <ul class="light-gray noselect">
-                <a href="#frontpage"><li class="active">Home</li></a>
-                <a href="#about"><li>About</li></a>
-                <a href="#projects"><li>Projects</li></a>
-                <a href="#contact"><li>Contact</li></a>
+                <a href="#frontpage"><li class="active" class="frontpage-nav">Home</li></a>
+                <a href="#about"><li class="about-nav">About</li></a>
+                <a href="#projects"><li class="projects-nav">Projects</li></a>
+                <a href="#contact"><li class="contact-nav">Contact</li></a>
                 <a href="https://www.github.com/evanhessler"><li>Github</li></a>
                 <a href="https://www.linkedin.com/in/evanhessler"><li>Linkedin</li></a>
             </ul>
@@ -104,7 +102,7 @@
     </div>
 
 
-    <div class="container">
+    <div class="container" id="frontpage">
       <div class="row vertical-center" style="height: 90%">
         <div class="col-xs-2"></div>
         <div class="col-xs-8 text-center">
@@ -280,7 +278,7 @@
           <h5 class="black text-center">Contact</h5>
           <div class="accent-color-background decorative-line"></div>
             <div id="contact-check">
-              <p>Humans only please. What is seven plus five?</p>
+              <p>No robots please. What is seven plus five?</p>
               <input type="number">
               <br>
               <button class="black-background button">Answer</button>
