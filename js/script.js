@@ -39,9 +39,9 @@ $(document).ready(function() {
             new TextScramble(document.querySelector('#freelance')).setText('Freelancer');
             new TextScramble(document.querySelector('#lmu')).setText('Loyola Marymount University');
             new TextScramble(document.querySelector('#webDevBoot')).setText('Web Development Bootcamp');
-            /*new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
+            new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
             new TextScramble(document.querySelector('#webDev')).setText('Web Development');
-            new TextScramble(document.querySelector('#design')).setText('Design');*/
+            new TextScramble(document.querySelector('#design')).setText('Design');
 
             setTimeout(function(){
                 $(".resume-fade-in").fadeIn(500);
@@ -68,6 +68,7 @@ $(document).ready(function() {
             }, 500);
         } else {
             $("#contact-check p").text("That is incorrect. What is seven plus five?");
+            $("#contact-check input").val('');
         }
     });
 

@@ -476,3 +476,7 @@ a {
   display: none;
   color: #939393;
 }
+
+.snapshot {
+  cursor: pointer;
+}
