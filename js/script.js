@@ -36,12 +36,17 @@ $(document).ready(function() {
             new TextScramble(document.querySelector('#aktary')).setText('AktaryTech');
             new TextScramble(document.querySelector('#nfl')).setText('National Football League');
             new TextScramble(document.querySelector('#hesslex')).setText('Hesslex Design Agency');
-            new TextScramble(document.querySelector('#freelance')).setText('Freelance');
-            new TextScramble(document.querySelector('#lmu')).setText('Loyola Marymount University');
+            new TextScramble(document.querySelector('#freelance')).setText('Freelancer');
+            /*new TextScramble(document.querySelector('#lmu')).setText('Loyola Marymount University');
             new TextScramble(document.querySelector('#webDevBoot')).setText('Web Development Bootcamp');
-            /*new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
+            new TextScramble(document.querySelector('#progLang')).setText('Programming Languages');
             new TextScramble(document.querySelector('#webDev')).setText('Web Development');
             new TextScramble(document.querySelector('#design')).setText('Design');*/
+
+            setTimeout(function(){
+                $(".resume-fade-in").fadeIn(500);
+            }, 1550);
+
             textScramble = false;
         }
     }, {offset:'100%'});
@@ -79,6 +84,92 @@ $(document).ready(function() {
     });
 
     $("#aktary-click").click(function(){
-        $("#aktary-box").show();
+        if ($("#aktary-box").is(":visible")) {
+            $("#aktary-box").fadeOut(100);
+            $("#aktary-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#aktary-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#aktary-box").fadeIn(100);
+        }
     }); 
+
+    $("#nfl-click").click(function(){
+        if ($("#nfl-box").is(":visible")) {
+            $("#nfl-box").fadeOut(100);
+            $("#nfl-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#nfl-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#nfl-box").fadeIn(100);
+        }
+    });
+
+    $("#hesslex-click").click(function(){
+        if ($("#hesslex-box").is(":visible")) {
+            $("#hesslex-box").fadeOut(100);
+            $("#hesslex-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#hesslex-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#hesslex-box").fadeIn(100);
+        }
+    });
+
+    $("#freelance-click").click(function(){
+        if ($("#freelance-box").is(":visible")) {
+            $("#freelance-box").fadeOut(100);
+            $("#freelance-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#freelance-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#freelance-box").fadeIn(100);
+        }
+    });
+
+    $("#lmu-click").click(function(){
+        if ($("#lmu-box").is(":visible")) {
+            $("#lmu-box").fadeOut(100);
+            $("#lmu-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#lmu-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#lmu-box").fadeIn(100);
+        }
+    });
+
+    $("#webDevBoot-click").click(function(){
+        if ($("#webDevBoot-box").is(":visible")) {
+            $("#webDevBoot-box").fadeOut(100);
+            $("#webDevBoot-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#webDevBoot-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#webDevBoot-box").fadeIn(100);
+        }
+    });
+
+    $("#progLang-click").click(function(){
+        if ($("#progLang-box").is(":visible")) {
+            $("#progLang-box").fadeOut(100);
+            $("#progLang-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#progLang-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#progLang-box").fadeIn(100);
+        }
+    });
+
+    $("#design-click").click(function(){
+        if ($("#design-box").is(":visible")) {
+            $("#design-box").fadeOut(100);
+            $("#design-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#design-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#design-box").fadeIn(100);
+        }
+    });
+
+    $("#webDev-click").click(function(){
+        if ($("#webDev-box").is(":visible")) {
+            $("#webDev-box").fadeOut(100);
+            $("#webDev-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+        } else {
+            $("#webDev-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $("#webDev-box").fadeIn(100);
+        }
+    });
 });
