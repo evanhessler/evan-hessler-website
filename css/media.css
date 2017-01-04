@@ -56,8 +56,10 @@
   #logo {
     max-width: 31%;
   }
-
   #profile-pic {
     width: 175px;
+  }
+  .decorative-circles-small {
+    height: 24px !important;
   }
 }

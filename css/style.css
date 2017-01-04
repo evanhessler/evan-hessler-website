@@ -480,3 +480,34 @@ a {
 .snapshot {
   cursor: pointer;
 }
+
+.decorative-circles-small .decorative-circle-small {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.decorative-circles-small {
+  display: inline-block;
+  position: absolute;
+  height: 20px;
+}
+
+.decorative-circles-line {
+  position: absolute;
+  width: 39px;
+  height: 1px;
+  margin-left: 4px;
+  margin-top: 1px;
+  display: inline-block;
+}
+
+.circles-decoration {
+  width: 47px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
