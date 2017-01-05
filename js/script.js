@@ -85,92 +85,132 @@ $(document).ready(function() {
     });
 
     $("#aktary-click").click(function(){
-        if ($("#aktary-box").is(":visible")) {
-            $("#aktary-box").fadeOut(100);
+        if ($(".aktary-box").is(":visible")) {
+            $(".aktary-box").fadeOut(100);
             $("#aktary-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#aktary-click .decorative-line").addClass("no-margin");
+            $("#aktary-click .decorative-line").removeClass("low-margin");
         } else {
             $("#aktary-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#aktary-box").fadeIn(100);
+            $(".aktary-box").fadeIn(100);
+            $("#aktary-click .decorative-line").removeClass("no-margin");
+            $("#aktary-click .decorative-line").addClass("low-margin");
         }
-    }); 
+    });
 
     $("#nfl-click").click(function(){
-        if ($("#nfl-box").is(":visible")) {
-            $("#nfl-box").fadeOut(100);
+        if ($(".nfl-box").is(":visible")) {
+            $(".nfl-box").fadeOut(100);
             $("#nfl-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#nfl-click .decorative-line").addClass("no-margin");
+            $("#nfl-click .decorative-line").removeClass("low-margin");
         } else {
             $("#nfl-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#nfl-box").fadeIn(100);
+            $(".nfl-box").fadeIn(100);
+            $("#nfl-click .decorative-line").removeClass("no-margin");
+            $("#nfl-click .decorative-line").addClass("low-margin");
         }
     });
 
     $("#hesslex-click").click(function(){
-        if ($("#hesslex-box").is(":visible")) {
-            $("#hesslex-box").fadeOut(100);
+        if ($(".hesslex-box").is(":visible")) {
+            $(".hesslex-box").fadeOut(100);
             $("#hesslex-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#hesslex-click .decorative-line").addClass("no-margin");
+            $("#hesslex-click .decorative-line").removeClass("low-margin");
         } else {
             $("#hesslex-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#hesslex-box").fadeIn(100);
+            $(".hesslex-box").fadeIn(100);
+            $("#hesslex-click .decorative-line").removeClass("no-margin");
+            $("#hesslex-click .decorative-line").addClass("low-margin");
         }
     });
 
     $("#freelance-click").click(function(){
-        if ($("#freelance-box").is(":visible")) {
-            $("#freelance-box").fadeOut(100);
+        if ($(".freelance-box").is(":visible")) {
+            $(".freelance-box").fadeOut(100);
             $("#freelance-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#freelance-click .decorative-line").addClass("no-margin");
+            $("#freelance-click .decorative-line").removeClass("low-margin");
         } else {
             $("#freelance-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#freelance-box").fadeIn(100);
+            $(".freelance-box").fadeIn(100);
+            $("#freelance-click .decorative-line").removeClass("no-margin");
+            $("#freelance-click .decorative-line").addClass("low-margin");
         }
     });
 
     $("#lmu-click").click(function(){
-        if ($("#lmu-box").is(":visible")) {
-            $("#lmu-box").fadeOut(100);
+        if ($(".lmu-box").is(":visible")) {
+            $(".lmu-box").fadeOut(100);
             $("#lmu-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#lmu-click .decorative-line").addClass("no-margin");
+            $("#lmu-click .decorative-line").removeClass("low-margin");
         } else {
             $("#lmu-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#lmu-box").fadeIn(100);
+            $(".lmu-box").fadeIn(100);
+            $("#lmu-click .decorative-line").removeClass("no-margin");
+            $("#lmu-click .decorative-line").addClass("low-margin");
         }
     });
 
     $("#webDevBoot-click").click(function(){
-        if ($("#webDevBoot-box").is(":visible")) {
-            $("#webDevBoot-box").fadeOut(100);
+        if ($(".webDevBoot-box").is(":visible")) {
+            $(".webDevBoot-box").fadeOut(100);
             $("#webDevBoot-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#webDevBoot-click .decorative-line").addClass("no-margin");
+            $("#webDevBoot-click .decorative-line").removeClass("low-margin");
         } else {
             $("#webDevBoot-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#webDevBoot-box").fadeIn(100);
+            $(".webDevBoot-box").fadeIn(100);
+            $("#webDevBoot-click .decorative-line").removeClass("no-margin");
+            $("#webDevBoot-click .decorative-line").addClass("low-margin");
         }
     });
 
     $("#progLang-click").click(function(){
-        if ($("#progLang-box").is(":visible")) {
-            $("#progLang-box").fadeOut(100);
+        if ($(".progLang-box").is(":visible")) {
+            $(".progLang-box").fadeOut(100);
             $("#progLang-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#progLang-click .decorative-line").addClass("no-margin");
+            $("#progLang-click .decorative-line").removeClass("low-margin");
         } else {
             $("#progLang-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#progLang-box").fadeIn(100);
-        }
-    });
-
-    $("#design-click").click(function(){
-        if ($("#design-box").is(":visible")) {
-            $("#design-box").fadeOut(100);
-            $("#design-click .resume-arrow").css({'transform': 'rotate(360deg)'});
-        } else {
-            $("#design-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#design-box").fadeIn(100);
+            $(".progLang-box").fadeIn(100);
+            $("#progLang-click .decorative-line").removeClass("no-margin");
+            $("#progLang-click .decorative-line").addClass("low-margin");
         }
     });
 
     $("#webDev-click").click(function(){
-        if ($("#webDev-box").is(":visible")) {
-            $("#webDev-box").fadeOut(100);
+        if ($(".webDev-box").is(":visible")) {
+            $(".webDev-box").fadeOut(100);
             $("#webDev-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#webDev-click .decorative-line").addClass("no-margin");
+            $("#webDev-click .decorative-line").removeClass("low-margin");
         } else {
             $("#webDev-click .resume-arrow").css({'transform': 'rotate(90deg)'});
-            $("#webDev-box").fadeIn(100);
+            $(".webDev-box").fadeIn(100);
+            $("#webDev-click .decorative-line").removeClass("no-margin");
+            $("#webDev-click .decorative-line").addClass("low-margin");
         }
     });
+
+    $("#design-click").click(function(){
+        if ($(".design-box").is(":visible")) {
+            $(".design-box").fadeOut(100);
+            $("#design-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#design-click .decorative-line").addClass("no-margin");
+            $("#design-click .decorative-line").removeClass("low-margin");
+        } else {
+            $("#design-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $(".design-box").fadeIn(100);
+            $("#design-click .decorative-line").removeClass("no-margin");
+            $("#design-click .decorative-line").addClass("low-margin");
+        }
+    });
+
+    $("#nfl-click .decorative-line").click(function(){
+        console.log("herel23jlk2");
+    })
 });

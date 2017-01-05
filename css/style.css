@@ -188,7 +188,9 @@ h6 {
   font-weight: 400 !important;
   line-height: 240% !important;
   font-size: 1.3rem !important;
-  display: inline-block;
+  display: inline-block !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .decorative-line {

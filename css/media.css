@@ -21,6 +21,9 @@
     h5, .tagline {
       font-size: 1.8rem !important;
     }
+    .decorative-circles-small {
+      height: 24px !important;
+    }
 }
 
 @media screen and (max-width: 60rem) {
@@ -60,6 +63,6 @@
     width: 175px;
   }
   .decorative-circles-small {
-    height: 24px !important;
+    height: 21px !important;
   }
 }
