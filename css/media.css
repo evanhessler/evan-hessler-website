@@ -26,6 +26,12 @@
     }
 }
 
+@media screen and (max-width: 800px) {
+    .decorative-circles-small {
+      height: 22px !important;
+    }
+}
+
 @media screen and (max-width: 60rem) {
     .col-md-8 {
       text-align: center !important;
