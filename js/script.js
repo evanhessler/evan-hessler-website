@@ -16,7 +16,6 @@ $(document).ready(function() {
         $(".fadein").hide().css({opacity:100}).fadeIn(1000);
     }, 1230);
 
-    $(".fade-on-scroll").hide();
     $("#contact-info").hide();
 
     $("#pulldown-icon").click(function(){
@@ -48,15 +47,6 @@ $(document).ready(function() {
             }, 1550);
 
             textScramble = false;
-        }
-    }, {offset:'100%'});
-
-    var fadeOnScroll = true;
-
-    $('.projects').waypoint(function() {
-        if (fadeOnScroll) {
-            $(".fade-on-scroll").fadeIn(1000);
-            fadeOnScroll = false;
         }
     }, {offset:'100%'});
 
