@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Evan Hessler</title>
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="stylesheet" media="screen" href="css/media.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+</head>
+<body>
+
+  <div class="vertical-center navbar" style="display: flex;" id="navbar-large-screens">
+    <div id="frontpage"></div>
+    <div class="col-xs-6">
+      <a href="../">
+        <img src="images/logo.svg">
+      </a>
+    </div>
+
+    <div class="col-xs-6">
+      <nav>
+        <ul class="light-gray vertical-center pull-right">
+          <a href="https://www.github.com/evanhessler">
+            <a href="../"><li class="frontpage-nav">Home</li></a>
+            <a href="../#about"><li class="about-nav">About</li></a>
+            <a href="../#projects"><li class="projects-nav">Projects</li></a>
+            <a href="../#contact"><li class="contact-nav">Contact</li></a>
+            <a class="external-link" href="https://www.github.com/evanhessler">
+              <li style="margin-top: 10px;">
+                <svg class="icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="27px" height="27px" viewBox="0 0 30 32" enable-background="new 0 0 30 32" xml:space="preserve">
+                <rect fill-rule="evenodd" clip-rule="evenodd" fill="none" width="30" height="30"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15,4.085c-6.746,0-12.217,5.47-12.217,12.217
+                  c0,5.397,3.5,9.978,8.355,11.593c0.609,0.111,0.834-0.266,0.834-0.589c0-0.29-0.012-1.06-0.018-2.079
+                  C8.557,25.965,7.84,23.59,7.84,23.59c-0.555-1.411-1.355-1.787-1.355-1.787c-1.109-0.758,0.084-0.743,0.084-0.743
+                  c1.225,0.087,1.871,1.26,1.871,1.26c1.09,1.866,2.859,1.327,3.555,1.015c0.111-0.789,0.428-1.328,0.775-1.633
+                  c-2.713-0.309-5.564-1.356-5.564-6.038c0-1.335,0.477-2.425,1.258-3.278c-0.125-0.309-0.545-1.551,0.119-3.232
+                  c0,0,1.027-0.33,3.359,1.252c0.975-0.271,2.021-0.407,3.059-0.412c1.037,0.005,2.084,0.141,3.059,0.412
+                  c2.332-1.582,3.357-1.252,3.357-1.252c0.666,1.682,0.246,2.924,0.121,3.232c0.783,0.854,1.256,1.943,1.256,3.278
+                  c0,4.693-2.856,5.726-5.578,6.028c0.439,0.377,0.83,1.123,0.83,2.263c0,1.634-0.016,2.95-0.016,3.352
+                  c0,0.327,0.221,0.706,0.84,0.587c4.85-1.618,8.348-6.194,8.348-11.591C27.217,9.555,21.746,4.085,15,4.085z"/>
+                </svg>
+              </li>
+            </a>
+            <a href="https://www.linkedin.com/in/evanhessler">
+              <li style="margin-top: 10px;">
+                <svg class="icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                   width="27px" height="27px" viewBox="0 0 30 32" enable-background="new 0 0 30 32" xml:space="preserve">
+                <g>
+                  <rect fill-rule="evenodd" clip-rule="evenodd" fill="none" width="30" height="30"/>
+                  <path d="M25.152,4.084h5.843c-0.97,0-1.758,0.769-1.758,1.718v20.394c0,0.949,0.788,1.719,1.758,1.719h20.31
+                    c0.972,0,1.763-0.77,1.763-1.719V5.803C26.915,4.854,26.124,4.084,25.152,4.084z M10.154,24.39H6.615V13.019h3.539V24.39z
+                     M8.386,11.464c-1.136,0-2.05-0.917-2.05-2.049c0-1.131,0.914-2.05,2.05-2.05c1.131,0,2.048,0.918,2.048,2.05
+                    C10.434,10.547,9.517,11.464,8.386,11.464z M23.393,24.39h-3.534v-5.529c0-1.316-0.023-3.017-1.837-3.017
+                    c-1.84,0-2.12,1.438-2.12,2.923v5.623h-3.53V13.019h3.389v1.554h0.048c0.472-0.894,1.625-1.835,3.345-1.835
+                    c3.578,0,4.24,2.354,4.24,5.416V24.39z"/>
+                </g>
+                <rect fill-rule="evenodd" clip-rule="evenodd" fill="none" width="30" height="32"/>
+                </svg>
+              </li>
+            </a>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div class="vertical-center navbar" id="navbar-mobile-screens">
+    <div class="col-xs-6">
+      <a href="../">
+        <img src="images/logo-short.svg" id="logo">
+      </a>
+    </div>
+
+    <div class="col-xs-6">
+      <svg class="icon pull-right" version="1.1" id="pulldown-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         width="20px" height="20px" viewBox="0 0 75 71.655" enable-background="new 0 0 75 71.655" xml:space="preserve">
+      <rect  width="75" height="12.633"/>
+      <rect y="29.511" width="75" height="12.633"/>
+      <rect y="59.021"  width="75" height="12.633"/>
+      </svg>
+
+      <div class="col-xs-12 pull-right" id="pulldown">
+        <nav>
+          <ul class="light-gray noselect">
+              <a href="../"><li class="frontpage-nav">Home</li></a>
+              <a href="../#about"><li class="about-nav">About</li></a>
+              <a href="../#projects"><li class="projects-nav">Projects</li></a>
+              <a href="../#contact"><li class="contact-nav">Contact</li></a>
+              <a href="https://www.github.com/evanhessler"><li>Github</li></a>
+              <a href="https://www.linkedin.com/in/evanhessler"><li>Linkedin</li></a>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
+    
+  </div>
+
+
+  <div class="one-fourth projects" id="projects">
+    <div class="one-fourth project-background fade-on-scroll" id="reddit">
+    </div>
+    <div class="one-fourth project-black" style="background-color:rgba(0, 0, 0, 0.78);"></div>
+    <div class="one-fourth project fade-on-scroll">
+      <div class="container" style="height: 25vh;">
+        <div class="row vertical-center text-center" style="min-height: 100%">
+          <div class="col-xs-12">
+            <h2 class="white">Reddit</h2>
+            <p class="white">Web Design / Research Project</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+  <div class="one-half">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 center-block text-center black">
+          <br>
+          <br>
+          <h5>Application Description</h5>
+          <br>
+          <p>For this project I decided to design Reddit, a social news aggregation forum. Reddit allows anonymous users to post links to articles from around the web; a comments page accompanies each article where the article can be freely discussed. There are also communities known as “subreddits” where articles or discussions about related topics are posted. While Reddit is the 26th most popular website according to Alexa Internet, inc. (1), in my personal experience I have found new users to the site confused by the interface. I’ve overheard many friends complain that Reddit’s design is ugly and outdated, which further hurts their experience. Specifically, some users either don’t notice or struggle to find the comments for each post. Moreover, other uses have difficulty navigating between subreddits. Finally, the aesthetic of the site is mainly text with little styling, which doesn’t add to user satisfaction. Below is a mockup of my Reddit front page redesign, which is an extension of Reddit user <a href="https://www.reddit.com/r/web_design/comments/2iwiyg/i_gave_the_reddit_front_page_a_makeover_let_me/" style="color: #939393 !important">Styke’s design concept</a>.</p>
+          <br>
+          <img src="images/projects/reddit/1.png" class="project-specifics">
+          <br>
+          <br>
+          <br>
+          <br>
+          <p>At the top of each page a header image is displayed along with the Reddit logo. If the user has an account they can view their profile and settings on the right side of the header. The center panel of this design shows all the posts along with options to filter by new, rising, controversial, etc. The left side allows the user to navigate between their favorite subreddits, post new content, or contribute to Reddit Gold.</p>
+          <br>
+          <br>
+          <h5>Create new post</h5>
+          <br>
+          <p>If a user wants to post a new link or text in the Reddit feed for all users to see, they can simply click the “Post Something” button in the left sidebar. This action requires a user have an account and thus this button would only be available for logged in users. If clicked the user will be redirected to a new page where they can share the link and/or accompanying text.</p>
+          <img src="images/projects/reddit/2.png" class="project-specifics">
+          <br>
+          <br>
+          <h5>View comments on post</h5>
+          <br>
+          <p>If a user wants to view the Reddit comments for a specific post, they can click the “Comments” text adjacent to the post thumbnail. This will redirect the user to a new page containing the post comments and does not require the user to be logged in.</p>
+          <img src="images/projects/reddit/3.png" class="project-specifics">
+          <br>
+          <br>
+          <h5>View post on Reddit feed</h5>
+          <br>
+          <p>If a user wants to view an article or text post on their Reddit feed, they have two options. First, they can simply click on the post title. This will redirect them to a new page. If the user wants to embed the content on their current page, they can click the “Preview” button located just below the article comments. The content will then pop up just below the button. Neither of these two options requires the user be logged in.</p>
+          <img src="images/projects/reddit/4.png" class="project-specifics">
+          <br>
+          <br>
+          <h5>Design Rationale</h5>
+          <br>
+          <p>I believe this interface directly amends the issues current users have with Reddit. First, by having both an icon and “comments” text for each article, users will quickly be able to navigate to the comments page. Having an icon next to accompanying text is not only proven to generally make users' navigation of any website faster, but also makes the site more visually appealing; satisfaction is perhaps the most important quality of a website like Reddit and thus an interface with great aesthetics will perform better. To further improve the design, the user can customize the header of the home page when they create an account. The header will still change as the user visits different subreddits; however, on the front page it will always be a picture of their choosing. To make transitions between subreddits and the front page more efficient and easier to understand the site will always display a sidebar with subreddit navigation. Finally, each post has an preview option below the comments. This allows the user to view the post’s content without having to reload a new page. While this is currently a feature of Reddit Enhancement Suite, a web browser extension, I believe it should be a feature for every Reddit user.</p>
+          <br>
+          <br>
+          <h5>Usability Metric Forecast</h5>
+          <br>
+          <p>If implemented, I believe my interface would have an edge over the current design in terms of satisfaction, efficiency, and memorability. This redesign is more appealing than the current design because of its use of icons and a customizable header. The icons furthermore make efficiency better as links are easier to find than before. After users get accustomed to the new design, I believe they will be easily be able to remember how to use it. That said, making millions of users transition to a new site is a major obstacle, thus making learnability a major issue. Errors would be frequent in the beginning.</p>
+          <br>
+          <br>
+          <h5>References</h5>
+          <p>(1) "List of Most Popular Websites." Wikipedia. Wikimedia Foundation, n.d. Web. 28 Nov. 2016. https://en.wikipedia.org/wiki/List_of_most_popular_websites</p>
+          <p>(2) "Reddit.com: Api Documentation." Reddit.com: Api Documentation. N.p., n.d. Web. 28 Nov. 2016. https://www.reddit.com/dev/api/</p>
+          <p>(3) N.p., 2014. Web. 28 Nov. 2016. https://www.reddit.com/r/web_design/comments/2iwiyg/i_gave_the_reddit_front_page_a_makeover_let_me/.</p>
+
+          <br>
+          <br>
+          <a href="../#projects"><button class="noselect black-background button"><span class="white">Back to Projects</span></button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div id="footer">
+    <div class="container vertical-center text-center">
+      <div class="row vertical-center" style="min-height: 100%; min-width: 100%;">
+        <div class="col-xs-12">
+          <p class="medium-gray center-block" style="margin-bottom: 0 !important"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+
+<!-- scripts -->
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/footer.js"></script>
+
+</body>
+</html>

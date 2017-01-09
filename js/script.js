@@ -63,8 +63,6 @@ $(document).ready(function() {
     });
 
 
-    $("#footer p").text("© Evan Hessler "  + new Date().getFullYear().toString());
-
     var $root = $('html, body');
     $('a').click(function() {
         var href = $.attr(this, 'href');

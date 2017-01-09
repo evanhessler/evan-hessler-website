@@ -15,20 +15,14 @@
     h1 {
       font-size: 5rem !important;
     }
+    h2 {
+      font-size: 4.2rem !important;
+    }
     h3 {
       font-size: 3.5rem !important;
     }
     h5, .tagline {
       font-size: 1.8rem !important;
-    }
-    .decorative-circles-small {
-      height: 24px !important;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .decorative-circles-small {
-      height: 22px !important;
     }
 }
 
@@ -56,6 +50,9 @@
   h1 {
     font-size: 4rem !important;
   }
+  h2 {
+    font-size: 3rem !important;
+  }
   h3 {
     font-size: 2rem !important;
   }
@@ -67,8 +64,5 @@
   }
   #profile-pic {
     width: 175px;
-  }
-  .decorative-circles-small {
-    height: 21px !important;
   }
 }

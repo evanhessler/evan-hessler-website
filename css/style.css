@@ -232,6 +232,10 @@ li:hover, a:hover { color:#fff; }
   color: #0f0f0f !important;
 }
 
+.auxhub-background {
+  background: #49b9f5;
+}
+
 .light-gray {
   color: #f4f4f4;
 }
@@ -435,13 +439,42 @@ a {
   z-index: -1;
 }
 
+.project-specifics {
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+}
+
 #auxhub {
-  background: url('/images/projects/auxhub-cover.png') center;
+  background: url('/images/projects/auxhub/auxhub-cover.png') center;
+}
+
+#reddit {
+  background: url('/images/projects/reddit/reddit-cover.png') center;
+}
+
+#sports {
+  background: url('/images/projects/sports/sports-cover3.png') center;
+}
+
+#backtracker {
+  background: url('/images/projects/backtracker/backtracker-cover.png') center;
+}
+
+#gmail {
+  background: url('/images/projects/gmail/gmail-cover.png') center;
+}
+
+.project-black {
+  position: absolute;
+  z-index: 0;
 }
 
 .project {
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0f0f+0,0f0f0f+100&0.9+0,0.83+3,0.83+97,0.9+100 */
   background: -moz-linear-gradient(top,  rgba(15,15,15,0.9) 0%, rgba(15,15,15,0.83) 3%, rgba(15,15,15,0.83) 97%, rgba(15,15,15,0.9) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top,  rgba(15,15,15,0.9) 0%,rgba(15,15,15,0.83) 3%,rgba(15,15,15,0.83) 97%,rgba(15,15,15,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
