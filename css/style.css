@@ -11,6 +11,10 @@ html,body{
   text-decoration: none;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
 body {
   overflow-y: scroll;
   overflow-x: hidden;
