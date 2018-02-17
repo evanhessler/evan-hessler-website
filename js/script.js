@@ -30,8 +30,9 @@ $(document).ready(function() {
 
     var textScramble = true;
 
-    $('#aktary').waypoint(function() {
+    $('#ticketmaster').waypoint(function() {
         if (textScramble) {
+            new TextScramble(document.querySelector('#ticketmaster')).setText('Ticketmaster');
             new TextScramble(document.querySelector('#aktary')).setText('AktaryTech');
             new TextScramble(document.querySelector('#nfl')).setText('National Football League');
             new TextScramble(document.querySelector('#hesslex')).setText('Hesslex Design Agency');
@@ -68,6 +69,20 @@ $(document).ready(function() {
             scrollTop: $(href).offset().top - 30
         }, 500);
         return false;
+    });
+
+    $("#ticketmaster-click").click(function(){
+        if ($(".ticketmaster-box").is(":visible")) {
+            $(".ticketmaster-box").fadeOut(100);
+            $("#ticketmaster-click .resume-arrow").css({'transform': 'rotate(360deg)'});
+            $("#ticketmaster-click .decorative-line").addClass("no-margin");
+            $("#ticketmaster-click .decorative-line").removeClass("low-margin");
+        } else {
+            $("#ticketmaster-click .resume-arrow").css({'transform': 'rotate(90deg)'});
+            $(".ticketmaster-box").fadeIn(100);
+            $("#ticketmaster-click .decorative-line").removeClass("no-margin");
+            $("#ticketmaster-click .decorative-line").addClass("low-margin");
+        }
     });
 
     $("#aktary-click").click(function(){
