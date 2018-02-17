@@ -451,6 +451,10 @@ a {
   width: 100%;
 }
 
+#extratoreddit {
+  background: url('/images/projects/extratoreddit/extratoreddit.png') center;
+}
+
 #auxhub {
   background: url('/images/projects/auxhub/auxhub-cover.png') center;
 }
