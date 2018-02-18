@@ -33,6 +33,7 @@ function getRandomColor() {
 
     if (randColor == "#ffffff") {
       document.getElementsByClassName('accent-color')[0].style.color = "#ffffff";
+      document.getElementsByClassName('accent-color')[1].style.color = "#ffffff";
     }
 
     return randColor;
