@@ -252,8 +252,14 @@ li:hover, a:hover { color:#fff; }
   color: #939393;
 }
 
+button:focus {outline:0;}
+
 .medium-gray-background {
   background: #939393;
+}
+
+.gray-background {
+  background: #a8a8a8;
 }
 
 .black {
