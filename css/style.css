@@ -451,6 +451,10 @@ a {
   width: 100%;
 }
 
+#crookbook {
+  background: url('/images/projects/crookbook/2.png') center;
+}
+
 #extratoreddit {
   background: url('/images/projects/extratoreddit/extratoreddit.png') center;
 }
