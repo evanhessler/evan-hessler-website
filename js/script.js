@@ -10,11 +10,10 @@ $(document).ready(function() {
             typeSpeed: 15,
             showCursor: false
         });
+        setTimeout(function(){
+            $(".fadein").hide().css({opacity:100}).fadeIn(1000);
+        }, 1330);
     }, 100);
-
-    setTimeout(function(){
-        $(".fadein").hide().css({opacity:100}).fadeIn(1000);
-    }, 1230);
 
     $("#contact-info").hide();
 
