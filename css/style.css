@@ -478,6 +478,10 @@ a {
   background: url('/images/projects/auxhub/auxhub-cover.png') center;
 }
 
+/*.project:hover {
+  filter: brightness(220%);
+}*/
+
 #reddit {
   background: url('/images/projects/reddit/reddit-cover.png') center;
 }
