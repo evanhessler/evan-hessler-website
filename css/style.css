@@ -459,10 +459,19 @@ a {
 
 #crookbook {
   background: url('/images/projects/crookbook/2.png') center;
+  background-size: cover;
+  filter: brightness(50%);
 }
 
 #extratoreddit {
   background: url('/images/projects/extratoreddit/extratoreddit.png') center;
+  filter: brightness(50%);
+}
+
+#jiraccsic-park {
+  background: url('/images/projects/jiraccsic-park/1.png') center;
+  background-size: cover;
+  filter: brightness(40%);
 }
 
 #auxhub {
@@ -475,10 +484,12 @@ a {
 
 #sports {
   background: url('/images/projects/sports/sports-cover3.png') center;
+  filter: brightness(150%);
 }
 
 #backtracker {
   background: url('/images/projects/backtracker/backtracker-cover.png') center;
+  filter: brightness(200%);
 }
 
 #gmail {
