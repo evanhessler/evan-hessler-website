@@ -145,7 +145,6 @@
 			// varying values for setTimeout during typing
 			// can't be global since number changes each time loop is executed
 			var humanize = Math.round(Math.random() * (1));
-			console.log(humanize)
 			var self = this;
 
 			// ------------- optional ------------- //

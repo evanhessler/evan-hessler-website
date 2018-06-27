@@ -460,18 +460,18 @@ a {
 #crookbook {
   background: url('/images/projects/crookbook/2.png') center;
   background-size: cover;
-  filter: brightness(50%);
+  filter: brightness(70%);
 }
 
 #extratoreddit {
   background: url('/images/projects/extratoreddit/extratoreddit.png') center;
-  filter: brightness(50%);
+  filter: brightness(70%);
 }
 
 #jiraccsic-park {
   background: url('/images/projects/jiraccsic-park/1.png') center;
   background-size: cover;
-  filter: brightness(40%);
+  filter: brightness(60%);
 }
 
 #auxhub {
