@@ -252,8 +252,14 @@ li:hover, a:hover { color:#fff; }
   color: #939393;
 }
 
+button:focus {outline:0;}
+
 .medium-gray-background {
   background: #939393;
+}
+
+.gray-background {
+  background: #a8a8a8;
 }
 
 .black {
@@ -451,9 +457,30 @@ a {
   width: 100%;
 }
 
+#crookbook {
+  background: url('/images/projects/crookbook/2.png') center;
+  background-size: cover;
+  filter: brightness(50%);
+}
+
+#extratoreddit {
+  background: url('/images/projects/extratoreddit/extratoreddit.png') center;
+  filter: brightness(50%);
+}
+
+#jiraccsic-park {
+  background: url('/images/projects/jiraccsic-park/1.png') center;
+  background-size: cover;
+  filter: brightness(40%);
+}
+
 #auxhub {
   background: url('/images/projects/auxhub/auxhub-cover.png') center;
 }
+
+/*.project:hover {
+  filter: brightness(220%);
+}*/
 
 #reddit {
   background: url('/images/projects/reddit/reddit-cover.png') center;
@@ -461,10 +488,12 @@ a {
 
 #sports {
   background: url('/images/projects/sports/sports-cover3.png') center;
+  filter: brightness(150%);
 }
 
 #backtracker {
   background: url('/images/projects/backtracker/backtracker-cover.png') center;
+  filter: brightness(200%);
 }
 
 #gmail {
