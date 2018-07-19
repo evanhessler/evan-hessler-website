@@ -31,6 +31,11 @@ $(document).ready(function() {
         }
     });
 
+    $("nav li").click(function() {
+        $("#pulldown").hide();
+        $("#pulldown").data('status', 'not_clicked');
+    });
+
     var textScramble = true;
 
     $('#ticketmaster').waypoint(function() {

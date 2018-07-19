@@ -26,6 +26,11 @@ function getRandomColor() {
       accColorBack[x].style.background = tempColor;
     }
 
+    var accColorBack = document.getElementsByClassName('accent-color-fill');
+    for (var x = 0; x < accColorBack.length; x++) {
+      accColorBack[x].style.fill = tempColor;
+    }
+
     var accColorStroke = document.getElementsByClassName('accent-color-stroke');
     for (var x = 0; x < accColorStroke.length; x++) {
       accColorStroke[x].style.borderColor = tempColor;
