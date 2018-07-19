@@ -454,7 +454,14 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+#fatiha {
+  background: url('/images/projects/fatiha/1.png') center;
+  background-size: cover;
+  filter: brightness(99%);
 }
 
 #crookbook {
