@@ -458,6 +458,12 @@ a {
   display: block;
 }
 
+#sineum {
+  background: url('/images/projects/sineum/5.png') center 0%;
+  background-size: cover;
+  filter: brightness(70%);
+}
+
 #fatiha {
   background: url('/images/projects/fatiha/1.png') center;
   background-size: cover;

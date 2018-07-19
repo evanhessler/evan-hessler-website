@@ -5,8 +5,6 @@ $(document).ready(function() {
     })
 
     $(".fadein").css({opacity:0});
-    $("#pulldown").hide();
-    $("#pulldown").data('status', 'not_clicked');
 
     setTimeout(function(){
         $("#intro").typed({
@@ -20,21 +18,6 @@ $(document).ready(function() {
     }, 2330);
 
     $("#contact-info").hide();
-
-    $("#pulldown-icon").click(function(){
-        if( $("#pulldown").data('status') == 'clicked' ) {
-            $("#pulldown").data('status','not_clicked');
-            $('#pulldown').slideUp(200);
-        } else {
-            $("#pulldown").data('status','clicked');
-            $('#pulldown').slideDown(200);
-        }
-    });
-
-    $("nav li").click(function() {
-        $("#pulldown").hide();
-        $("#pulldown").data('status', 'not_clicked');
-    });
 
     var textScramble = true;
 
