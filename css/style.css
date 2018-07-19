@@ -461,7 +461,7 @@ a {
 #fatiha {
   background: url('/images/projects/fatiha/1.png') center;
   background-size: cover;
-  filter: brightness(99%);
+  filter: brightness(120%);
 }
 
 #crookbook {
@@ -493,9 +493,9 @@ a {
   background: url('/images/projects/reddit/reddit-cover.png') center;
 }
 
-#sports {
-  background: url('/images/projects/sports/sports-cover3.png') center;
-  filter: brightness(150%);
+#artwork {
+  background: url('/images/projects/artwork/2.jpg') center 20%;
+  filter: brightness(100%);
 }
 
 #backtracker {
@@ -515,10 +515,20 @@ a {
 .project {
   position: absolute;
   z-index: 1;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0f0f+0,0f0f0f+100&0.9+0,0.83+3,0.83+97,0.9+100 */
-  background: -moz-linear-gradient(top,  rgba(15,15,15,0.9) 0%, rgba(15,15,15,0.83) 3%, rgba(15,15,15,0.83) 97%, rgba(15,15,15,0.9) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(15,15,15,0.9) 0%,rgba(15,15,15,0.83) 3%,rgba(15,15,15,0.83) 97%,rgba(15,15,15,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(15,15,15,0.9) 0%,rgba(15,15,15,0.83) 3%,rgba(15,15,15,0.83) 97%,rgba(15,15,15,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0f0f+0,0f0f0f+100&0.9+0,0.7+3,0.7+97,0.9+100 */
+  background: -moz-linear-gradient(top, rgba(15,15,15,0.9) 0%, rgba(15,15,15,0.7) 3%, rgba(15,15,15,0.7) 97%, rgba(15,15,15,0.9) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(15,15,15,0.9) 0%,rgba(15,15,15,0.7) 3%,rgba(15,15,15,0.7) 97%,rgba(15,15,15,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(15,15,15,0.9) 0%,rgba(15,15,15,0.7) 3%,rgba(15,15,15,0.7) 97%,rgba(15,15,15,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e60f0f0f', endColorstr='#e60f0f0f',GradientType=0 ); /* IE6-9 */
+}
+
+.project-light {
+  position: absolute;
+  z-index: 1;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0f0f0f+0,0f0f0f+100&0.9+0,0+3,0+97,0.9+100 */
+  background: -moz-linear-gradient(top, rgba(15,15,15,0.9) 0%, rgba(15,15,15,0) 3%, rgba(15,15,15,0) 97%, rgba(15,15,15,0.9) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(15,15,15,0.9) 0%,rgba(15,15,15,0) 3%,rgba(15,15,15,0) 97%,rgba(15,15,15,0.9) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(15,15,15,0.9) 0%,rgba(15,15,15,0) 3%,rgba(15,15,15,0) 97%,rgba(15,15,15,0.9) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e60f0f0f', endColorstr='#e60f0f0f',GradientType=0 ); /* IE6-9 */
 }
 
